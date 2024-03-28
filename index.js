@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(cors({
   // origin: 'http://localhost:3000',
-  origin: 'https://travelease-f-blue.vercel.app',
+  origin: 'https://travelease-f-blue.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
   })
