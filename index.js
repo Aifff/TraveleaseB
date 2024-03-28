@@ -8,7 +8,12 @@ import mongoose from 'mongoose';
 
 
 // for production making evnironment variable and using it here
-require('dotenv').config()
+
+// require('dotenv').config() // only to be used in cjs
+
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 
 
