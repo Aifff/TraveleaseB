@@ -19,6 +19,7 @@ dotenv.config();
 
 
 const app = express();
+app.use(bodyParser.json({ limit: '10mb' })); // required only for images. Payload limit to handle Base64 encoded images
 
 app.use(express.json());
 
