@@ -43,10 +43,6 @@ const cardschema = mongoose.Schema(
         },
         message: props => `${props.value} is not a valid URL!`
       }
-    },
-    Picture: {
-      type: String, // Store the image as a Base64 string
-      required: false
     }
     // Details:[
     //   { 

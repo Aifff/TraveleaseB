@@ -66,7 +66,6 @@ router.post('/addNewCard', async (request, response) => {
       Details: request.body.Details,
       Locatioon: request.body.Locatioon,
       user: request.body.user,
-      Picture: req.body.Picture,
       Rlink: request.body.Rlink ? request.body.Rlink : `https://www.google.com/search?q=${encodeURIComponent(Name)}+${encodeURIComponent(City)}`,
     };
 
