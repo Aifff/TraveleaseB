@@ -20,7 +20,7 @@ const cardschema = mongoose.Schema(
     },
     Locatioon: {
       type: String,
-      required: false,
+      required: true,
     },
     Details: {
       type: String,
@@ -28,7 +28,7 @@ const cardschema = mongoose.Schema(
     },
     user: {
       type: String,
-      required: true,
+      required: false,
     },
     Rlink: {
       type: String,

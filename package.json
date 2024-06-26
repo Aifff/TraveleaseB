@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "Aif",
+  "author": "Arif",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
